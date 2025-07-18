@@ -324,3 +324,23 @@ img {
     gap: 0.5rem;
   }
 }
+
+.shop-more-btn {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.shop-more-btn .btn {
+  background-color: #0f172a;
+  color: #fff;
+  padding: 12px 24px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.shop-more-btn .btn:hover {
+  background-color: #1e293b;
+  transform: scale(1.05);
+}
