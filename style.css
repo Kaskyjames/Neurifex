@@ -307,3 +307,68 @@ body {
   font-size: 0.85rem;
   color: #777;
 }
+
+
+
+
+.trust-section {
+  background: #fff;
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.trust-section .trust-points {
+  list-style: none;
+  padding: 0;
+  margin-top: 20px;
+  font-size: 1rem;
+  color: #333;
+}
+
+.trust-section .trust-points li {
+  margin: 10px 0;
+}
+
+.bot-store {
+  padding: 60px 20px;
+  background: #f7f9fc;
+}
+
+.bot-grid {
+  display: grid;
+  gap: 30px;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  margin-top: 30px;
+}
+
+.bot-card {
+  background: white;
+  padding: 20px;
+  border-radius: 16px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  text-align: left;
+}
+
+.bot-card h3 {
+  margin-bottom: 10px;
+}
+
+.bot-card ul {
+  padding-left: 18px;
+  margin: 15px 0;
+  font-size: 0.95rem;
+}
+
+.bot-card .btn {
+  display: inline-block;
+  margin-top: 10px;
+  background: #0e76a8;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 8px;
+  text-decoration: none;
+}
+
+.bot-card .btn:hover {
+  background: #095a7b;
+}
