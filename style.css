@@ -1,1 +1,326 @@
 
+/* General Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f9fbfd;
+  color: #333;
+  line-height: 1.6;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: auto;
+}
+
+/* Navbar */
+.navbar {
+  background-color: #000;
+  color: white;
+  padding: 1rem 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.navbar .logo,
+.navbar .logo span {
+  font-size: 1.6rem;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  color: #0ff;
+}
+
+.navbar .logo img {
+  height: 40px;
+  margin-right: 0.5rem;
+}
+
+.navbar nav a {
+  margin-left: 1.5rem;
+  color: #eee;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+.navbar nav a:hover,
+.navbar nav a.active {
+  color: #0ff;
+}
+
+/* Hero Section */
+.hero {
+  background: #0c1020;
+  color: white;
+  padding: 4rem 2rem;
+  text-align: center;
+}
+
+.hero h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.hero p {
+  font-size: 1.1rem;
+  margin-bottom: 2rem;
+}
+
+.hero-buttons .btn,
+.hero-buttons .btn-outline {
+  display: inline-block;
+  padding: 0.7rem 1.5rem;
+  border-radius: 25px;
+  font-weight: bold;
+  margin: 0.5rem;
+  transition: all 0.3s ease;
+}
+
+.btn {
+  background-color: #0ff;
+  color: #000;
+}
+
+.btn:hover {
+  background-color: #00cccc;
+}
+
+.btn-outline {
+  border: 2px solid #0ff;
+  color: #0ff;
+}
+
+.btn-outline:hover {
+  background-color: #0ff;
+  color: #000;
+}
+
+/* About Section */
+.about {
+  padding: 3rem 1rem;
+  background-color: #fff;
+  text-align: center;
+}
+
+.section-title {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.about-text {
+  font-size: 1.1rem;
+  color: #555;
+  max-width: 800px;
+  margin: auto;
+}
+
+/* Features Section */
+.features {
+  padding: 3rem 1rem;
+  background-color: #eef4f7;
+}
+
+.features-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.feature-card {
+  background: white;
+  padding: 1.5rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+  text-align: center;
+}
+
+/* Bots Section */
+.bots-section {
+  padding: 3rem 1rem;
+  background-color: #fff;
+}
+
+.bot-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.bot-card {
+  background-color: #f0f4f8;
+  padding: 1.5rem;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.06);
+}
+
+.bot-card h3 {
+  margin-bottom: 0.7rem;
+}
+
+.bot-card p {
+  margin-bottom: 0.8rem;
+}
+
+.bot-actions {
+  margin-top: 1rem;
+}
+
+/* Custom Request */
+.request-section {
+  padding: 3rem 1rem;
+  background-color: #e8f7f7;
+  text-align: center;
+}
+
+.request-text {
+  margin-bottom: 2rem;
+  font-size: 1.1rem;
+}
+
+/* Testimonials */
+.testimonials-section {
+  background-color: #fafafa;
+  padding: 3rem 1rem;
+  text-align: center;
+}
+
+.testimonial {
+  max-width: 600px;
+  margin: 1.5rem auto;
+  background-color: white;
+  padding: 1.5rem;
+  border-radius: 12px;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.07);
+}
+
+.testimonial-text {
+  font-style: italic;
+  margin-bottom: 1rem;
+}
+
+.testimonial-author {
+  font-weight: bold;
+}
+
+/* Footer */
+.site-footer,
+.footer {
+  background-color: #000;
+  color: #eee;
+  padding: 2rem 1rem;
+  text-align: center;
+}
+
+.footer-container,
+.footer-content {
+  max-width: 1000px;
+  margin: auto;
+}
+
+.footer-logo {
+  height: 40px;
+  margin-bottom: 0.5rem;
+}
+
+.footer-name {
+  font-size: 1.3rem;
+  font-weight: bold;
+  color: #0ff;
+  margin-left: 0.5rem;
+}
+
+.footer-links a {
+  color: #ccc;
+  margin: 0 1rem;
+  font-size: 0.95rem;
+  transition: color 0.3s;
+}
+
+.footer-links a:hover {
+  color: #0ff;
+}
+
+.footer-contact {
+  margin-top: 1rem;
+  font-size: 0.95rem;
+}
+
+.footer-copy {
+  margin-top: 1.5rem;
+  font-size: 0.85rem;
+  color: #888;
+}
+
+/* Shop Page: Trust Section */
+.trust-section {
+  padding: 3rem 1rem;
+  background-color: #eef3fb;
+  text-align: center;
+}
+
+.trust-points {
+  list-style: none;
+  margin-top: 1rem;
+}
+
+.trust-points li {
+  margin-bottom: 0.8rem;
+  font-size: 1.05rem;
+}
+
+/* Shop Page: Bot Store */
+.bot-store {
+  padding: 3rem 1rem;
+  background-color: #fff;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 1rem;
+  }
+
+  .navbar nav {
+    margin-top: 1rem;
+  }
+
+  .hero h2 {
+    font-size: 1.5rem;
+  }
+
+  .bot-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .features-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .footer-links {
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+}
