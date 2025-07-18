@@ -201,3 +201,18 @@ body {
   gap: 10px;
   flex-wrap: wrap;
 }
+
+
+
+
+.request-section {
+  padding: 60px 20px;
+  background: #f5f7fa;
+  text-align: center;
+}
+
+.request-text {
+  font-size: 1.1rem;
+  margin: 20px 0;
+  color: #333;
+}
