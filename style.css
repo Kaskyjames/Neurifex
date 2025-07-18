@@ -372,3 +372,137 @@ body {
 .bot-card .btn:hover {
   background: #095a7b;
 }
+
+.shop-section {
+  padding: 60px 20px;
+  background-color: #fff;
+  color: #222;
+}
+
+.shop-header {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.shop-header h2 {
+  font-size: 2rem;
+  color: #000;
+}
+
+.shop-header p {
+  max-width: 700px;
+  margin: 10px auto;
+  color: #555;
+}
+
+.trust-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 25px;
+  margin-bottom: 50px;
+}
+
+.trust-box {
+  background: #f9f9f9;
+  padding: 20px;
+  width: 220px;
+  border-radius: 12px;
+  text-align: center;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+}
+
+.trust-box img {
+  width: 50px;
+  height: 50px;
+  margin-bottom: 10px;
+}
+
+.trust-box h4 {
+  font-size: 1.1rem;
+  margin-bottom: 5px;
+}
+
+.trust-box p {
+  font-size: 0.9rem;
+  color: #666;
+}
+
+.bot-shop-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 25px;
+  justify-content: center;
+}
+
+.bot-item {
+  background: #fefefe;
+  border: 1px solid #ddd;
+  border-radius: 14px;
+  padding: 25px;
+  width: 290px;
+  box-shadow: 0 6px 16px rgba(0,0,0,0.05);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.bot-item h3 {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+  color: #111;
+}
+
+.bot-desc {
+  font-size: 0.95rem;
+  margin-bottom: 12px;
+  color: #555;
+}
+
+.bot-features {
+  list-style: none;
+  padding: 0;
+  margin-bottom: 20px;
+}
+
+.bot-features li {
+  font-size: 0.9rem;
+  padding-left: 1em;
+  margin-bottom: 6px;
+  position: relative;
+}
+
+.bot-features li::before {
+  content: "✔";
+  color: green;
+  position: absolute;
+  left: 0;
+  font-size: 0.85rem;
+}
+
+.bot-pricing {
+  font-size: 1.1rem;
+  margin-bottom: 10px;
+  color: #000;
+}
+
+.price-tag {
+  display: block;
+  font-size: 0.8rem;
+  color: #777;
+}
+
+.buy-now {
+  background-color: #0a84ff;
+  color: white;
+  padding: 10px 16px;
+  border-radius: 6px;
+  text-align: center;
+  text-decoration: none;
+  font-weight: 500;
+  transition: background-color 0.3s;
+}
+
+.buy-now:hover {
+  background-color: #055eb3;
+}
