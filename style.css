@@ -216,3 +216,30 @@ body {
   margin: 20px 0;
   color: #333;
 }
+
+
+.testimonials-section {
+  background: #fff;
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.testimonial {
+  max-width: 600px;
+  margin: 30px auto;
+  padding: 20px;
+  border-left: 4px solid #007bff;
+  background: #f8f9fa;
+  border-radius: 8px;
+}
+
+.testimonial-text {
+  font-size: 1.1rem;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.testimonial-author {
+  font-weight: bold;
+  color: #555;
+}
