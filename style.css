@@ -156,3 +156,48 @@ body {
   font-size: 16px;
   line-height: 1.6;
 }
+
+
+
+
+.bots-section {
+  padding: 60px 20px;
+  background-color: #151515;
+}
+
+.bot-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 30px;
+  margin-top: 30px;
+}
+
+.bot-card {
+  background-color: #1c1c1c;
+  padding: 25px;
+  border-radius: 12px;
+  border: 1px solid #00f0ff33;
+  text-align: left;
+  transition: box-shadow 0.3s ease;
+}
+
+.bot-card:hover {
+  box-shadow: 0 0 15px #00f0ff55;
+}
+
+.bot-card h3 {
+  color: #00f0ff;
+  margin-bottom: 10px;
+}
+
+.bot-card p {
+  margin-bottom: 15px;
+  font-size: 15px;
+  line-height: 1.6;
+}
+
+.bot-actions {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
